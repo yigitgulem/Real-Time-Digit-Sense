@@ -17,7 +17,7 @@ import tensorflow as tf
 path = "myData"
 myList = os.listdir(path)
 noOfClasses = len(myList)
-#print("Sınıf Sayısı(Label)={}".format(noOfClasses))
+
 
 images = []
 classNo = []
